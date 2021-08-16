@@ -12,7 +12,7 @@
 
 # <img src="https://user-images.githubusercontent.com/59677362/129642817-154d00c5-add6-4062-be37-bcff45c0a803.jpg" width=30 /> About this project
 
-### * React Native mobile application build with Expo to display popular movies;
-### * This app use Tratk api service using axios library;
-### * Build to Webjump mobile test.
+* ### React Native mobile application build with Expo to display popular movies;
+* ### This app use Tratk api service using axios library;
+* ### Build to Webjump mobile test.
 
