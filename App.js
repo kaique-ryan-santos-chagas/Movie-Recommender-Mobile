@@ -4,7 +4,7 @@ import Routes from './src/pages/routes/appRoutes';
 
 import { Provider } from 'react-redux';
 
-import store from './src/pages/store/index';
+import store from './src/pages/store/movieStore';
 
 export default function App() {
   

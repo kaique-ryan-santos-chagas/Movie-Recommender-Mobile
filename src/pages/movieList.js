@@ -5,13 +5,15 @@ import styled from 'styled-components/native';
 import api from './services/api';
 import axios from 'axios';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useDispatch } from 'react-redux';
 
 const MovieList = () => {
-
 
     const [popMoviesData, setPopMoviesData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [movieImages, setMovieImages] = useState([]);
+
+    const dispatch = useDispatch();
 
     useEffect(() => {
         const getPopMoviesData = async () => {
@@ -41,6 +43,8 @@ const MovieList = () => {
                 setMovieImages([ ...movieImages ]);
            });
        }
+
+       dispatch({ type: 'ADD_MOVIE', moviesData: popMoviesData, moviesImages: movieImages });
 
     }, [popMoviesData]);
 
