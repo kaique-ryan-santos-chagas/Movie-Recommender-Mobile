@@ -14,5 +14,5 @@
 
 * ### React Native mobile application build with Expo to display popular movies;
 * ### This app use Tratk api service to get movies data;
-* ### Build to Webjump mobile test.
+
 
